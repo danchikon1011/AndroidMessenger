@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/chats"
+    android:title="Chats"
+    android:icon="@drawable/baseline_chat_24"/>
+
+    <item
+        android:id="@+id/new_chat"
+        android:title="New chat"
+        android:icon="@drawable/baseline_find_replace_24"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/baseline_maps_home_work_24"
+        android:title="Maps" />
+</menu>

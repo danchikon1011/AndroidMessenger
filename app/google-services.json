@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1032019062154",
+    "firebase_url": "https://geocachingapp-69e7a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "geocachingapp-69e7a",
+    "storage_bucket": "geocachingapp-69e7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032019062154:android:37fb263d593ef462702c73",
+        "android_client_info": {
+          "package_name": "dem.corp.androidmessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc9vcuYC9JEpUMU7Pwg0msfJ2i7PKbzn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

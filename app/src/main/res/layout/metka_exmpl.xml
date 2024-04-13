@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewIm"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/a25333" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_metkaaas"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_toEndOf="@+id/imageViewIm"
+        android:text="Название"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ownerr_metkaaas"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/imageViewIm"
+        android:layout_below="@+id/name_metkaaas"
+        android:text="Создатель"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/imageViewIm"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey"/>
+
+</RelativeLayout>
